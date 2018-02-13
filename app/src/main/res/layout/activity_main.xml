@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.darshan.test.ChooseCountry">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT YOUR COUNTRY"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textSize="25dp"
+        android:textColor="#3cba54"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        />
+
+    <Button
+        android:id="@+id/btn_australia"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/btnbkgd"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Australia"
+        android:textColor="@color/btntextcolor"
+        />
+
+    <Button
+        android:id="@+id/btn_england"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/btnbkgd"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="England"
+        android:textColor="@color/btntextcolor"
+        />
+
+    <Button
+        android:id="@+id/btn_newzealand"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/btnbkgd"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="New Zealand"
+        android:textColor="@color/btntextcolor"
+        />
+
+    <Button
+        android:id="@+id/btn_india"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/btnbkgd"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="India"
+        android:textColor="@color/btntextcolor"
+        />
+
+    <Button
+        android:id="@+id/btn_pakistan"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/btnbkgd"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Pakistan"
+        android:textColor="@color/btntextcolor"
+        />
+
+    <Button
+        android:id="@+id/btn_srilanka"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/btnbkgd"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Sri Lanka"
+        android:textColor="@color/btntextcolor"
+        />
+
+    <Button
+        android:id="@+id/btn_westindies"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/btnbkgd"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="West Indies"
+        android:textColor="@color/btntextcolor"
+        />
+
+    <Button
+        android:id="@+id/btn_southafrica"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/btnbkgd"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="South Africa"
+        android:textColor="@color/btntextcolor"
+        />
+
+
+</LinearLayout>
