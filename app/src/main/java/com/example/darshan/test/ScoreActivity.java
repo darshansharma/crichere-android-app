@@ -35,11 +35,12 @@ public class ScoreActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         try {
-            Toast.makeText(this, ca.getLiveMatchStatistic(), Toast.LENGTH_LONG).show();
-            while(!ca.getLiveMatchStatistic().equals("No match right now")){
+            tv.setText("Match Details: \n"+ca.getLiveMatchStatistic());
+            //Toast.makeText(this, ca.getLiveMatchStatistic(), Toast.LENGTH_LONG).show();
+            /*while(!ca.getLiveMatchStatistic().equals("No match right now")){
 
                 tv.setText(ca.getLiveMatchStatistic());
-            }
+            }*/
         }
         catch (IOException e){
             Toast.makeText(this, "Caught IO Exception", Toast.LENGTH_SHORT).show();

@@ -97,6 +97,22 @@ public class CricHere extends  AppCompatActivity{
         return cname;
     }
 
+    public String parseJSON(String data){
+        StringBuilder sb_temp = new StringBuilder();
+        int rindex=0;int k=0;
+        if(data.contains("score")){
+            rindex = data.indexOf("score");
+            rindex += 8;
+        }else{
+            Log.e("Error: ", "JSON data changed by cricapi");
+
+        }
+        for(int i=rindex; i<data.indexOf(",", rindex)-1; i++ ){
+            sb_temp.append(data.charAt(i));
+        }
+
+        return sb_temp.toString();
+    }
 
     @SuppressLint("WrongConstant")
     public String getMatchDetails() throws IOException {
@@ -182,6 +198,7 @@ public class CricHere extends  AppCompatActivity{
 
             }
             stat = res;
+            stat = parseJSON(stat);
         }
         return stat;
     }
